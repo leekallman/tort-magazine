@@ -62,12 +62,12 @@ window.addEventListener(
 ),
   (window.onload = function () {
     document.documentElement.classList.remove("noscroll");
-  }),
-  document
-    .getElementsByClassName("privacy__link")[0]
-    .addEventListener("click", function (e) {
-      e.preventDefault(),
-        document
-          .getElementsByClassName("privacy")[0]
-          .classList.toggle("active");
-    });
+  })
+  // document
+  //   .getElementsByClassName("privacy__link")[0]
+  //   .addEventListener("click", function (e) {
+  //     e.preventDefault(),
+  //       document
+  //         .getElementsByClassName("privacy")[0]
+  //         .classList.toggle("active");
+  //   });
